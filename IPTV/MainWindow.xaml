@@ -28,7 +28,7 @@
                 <CheckBox x:Name="format" IsChecked="False" FontSize="16">生成空壳播放器格式(频道,地址)</CheckBox>
                 <Label Grid.Row="1" Content="若清空内网地址则直接生成 rtp:// 开头格式地址"  Width="270" Height="30" Margin="0,20,0,0" VerticalAlignment="Bottom" HorizontalAlignment="Center" Foreground="Red"/>
                 <Label Content="请输入内网udpxy或msd-lite地址：" FontSize="20" ></Label>
-                <TextBox Name="UDPXYIP" Text="192.168.1.1:4022" Width="200" BorderThickness="2" FontSize="20" HorizontalAlignment="Center"></TextBox>
+                <TextBox Name="UDPXYIP" Text="192.168.2.5:8686" Width="200" BorderThickness="2" FontSize="20" HorizontalAlignment="Center"></TextBox>
                 <Label Content="格式：192.168.1.1:4022" FontSize="20" Foreground="LightGray" HorizontalAlignment="Center"></Label>
                 <Button Width="80" Height="50" Content="生成"  Click="Generate" ></Button>
             </WrapPanel>
